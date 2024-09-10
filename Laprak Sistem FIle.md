@@ -1,6 +1,6 @@
 <h1>LAPORAN PRAKTIKUM SISTEM FILE</h1>
- <h2>PENDAHULUAN</h2>
- <h3>LATAR BELAKANG</h3>
+ <h2>I. PENDAHULUAN</h2>
+ <h3>1.1 LATAR BELAKANG</h3>
 <p>Sistem file adalah elemen fundamental dalam pengelolaan data pada sistem operasi komputer, berfungsi untuk menyimpan, mengorganisasikan, dan mengatur akses terhadap data di media penyimpanan seperti hard disk dan SSD. Sistem file menentukan bagaimana data disimpan secara fisik dan bagaimana file serta direktori diatur sehingga pengguna dapat dengan mudah mengakses dan memanipulasi informasi yang diperlukan. Dengan memahami cara sistem file bekerja, kita dapat memastikan bahwa data dikelola dengan efisien dan aman.</p>
 <p>Praktikum ini dirancang untuk memberikan pemahaman praktis tentang manajemen file dan direktori di lingkungan sistem berbasis Unix/Linux. Fokus utama dari praktikum ini adalah pengelolaan izin akses file, yang merupakan aspek penting dalam menjaga keamanan data dan mengatur hak akses pengguna. Izin akses menentukan siapa yang dapat membaca, menulis, atau mengeksekusi file, sehingga pengaturan izin yang tepat sangat penting untuk melindungi data dari akses yang tidak sah dan memastikan bahwa kolaborasi dapat dilakukan dengan lancar. Selain itu, praktikum ini juga mencakup pembuatan dan pengaturan struktur direktori yang efisien. Struktur direktori yang baik memungkinkan pengorganisasian data yang lebih baik, memudahkan pencarian file, dan meningkatkan produktivitas. </p>
 
@@ -10,19 +10,19 @@ Berdasarkan latar belakang diatas, maka tujuan penulisan laporan praktikum ini y
 3.	Mempelajari ijin akses (permission) dari file dan direktori <br/>
 4.	Mengenal konsep Owner dan Group<br/>
 5.	Mengerti konsep Link dan symbolic link<br/>
-<h3>ALAT DAN BAHAN</h3>
+<h3>1.2 ALAT DAN BAHAN</h3>
 1. Laptop <br/>
 2. Virtual Box <br/>
 3. Ubuntu 24.04 <br/>
-<h3>DASAR TEORI</h3>
+<h3>1.3 DASAR TEORI</h3>
 1. Sistem File <br>
 Sistem file adalah cara sistem operasi mengatur data di media penyimpanan seperti hard disk atau SSD. Ini seperti sebuah buku yang membagi data ke dalam bab dan halaman, agar data bisa ditemukan dan diakses dengan mudah. Berbagai jenis sistem file, seperti FAT, NTFS, dan ext4, memiliki cara berbeda dalam menyimpan dan mengelola data, serta fitur tambahan yang masing-masing menawarkan.Linux<br>
 2.	Izin Akses File <br/>
 Izin akses file adalah aturan yang menentukan siapa yang bisa melihat, mengubah, atau menjalankan file. Di sistem operasi seperti Unix/Linux, izin ini dibagi untuk tiga kategori: pemilik file (user), grup pengguna (group), dan orang lain (others). Pemilik file biasanya memiliki kontrol penuh atas file tersebut, sementara grup dan orang lain hanya bisa memiliki hak akses tertentu. Ada tiga jenis izin: baca (read), tulis (write), dan eksekusi (execute). Hak baca memungkinkan pengguna melihat isi file, hak tulis memungkinkan mereka mengubahnya, dan hak eksekusi memungkinkan mereka menjalankan file jika itu adalah program.<br/>
 3. Manajemen File <br/>
 Manajemen file mencakup berbagai tindakan yang bisa dilakukan terhadap file, seperti membuat, menyalin, memindahkan, dan menghapusnya. Semua tindakan ini penting untuk menjaga data tetap terorganisir dan mudah diakses. Sistem file menyediakan alat dan perintah untuk melakukan semua operasi ini dengan efisien, membantu Anda mengelola data sehari-hari dengan lebih baik. <br/>
-<h2>PEMBAHASAN</h2>
-<h1>Langkah Langkah Praktikum</h1>
+<h2>II. PEMBAHASAN</h2>
+<h1>2.1 Langkah Langkah Praktikum</h1>
 
 1.	Lihat peralatan I/O, character device, yang ada pada system komputer. <br/>
 Jawab:<br/>
@@ -68,6 +68,6 @@ Jawab:<br/>
  
 
 
-<h2>PENUTUP</h2>
-<h3>KESIMPULAN</h3>
+<h2>III. PENUTUP</h2>
+<h3>3.1 KESIMPULAN</h3>
 Praktikum ini memberikan pemahaman mendalam mengenai pengelolaan sistem file di lingkungan Unix/Linux, dengan penekanan pada manajemen file, struktur direktori, dan pengaturan izin akses. Dari praktikum ini, kita dapat menyimpulkan bahwa sistem file adalah komponen penting dalam mengatur dan menyimpan data di media penyimpanan, serta memahami cara kerja dan fungsinya sangat membantu dalam mengelola data secara efisien. Pengaturan izin akses file, yang menentukan siapa yang dapat membaca, menulis, atau menjalankan file, memainkan peran kunci dalam menjaga keamanan dan integritas data, serta memungkinkan kolaborasi yang aman. Struktur direktori yang baik memudahkan pengorganisasian dan pencarian file, sehingga mempermudah akses dan pemeliharaan data. Selain itu, penguasaan operasi dasar seperti pembuatan, penyalinan, dan penghapusan file adalah keterampilan penting dalam manajemen file sehari-hari. Secara keseluruhan, praktikum ini membekali kita dengan keterampilan praktis untuk mengelola sistem file secara efektif, baik dalam konteks akademik maupun profesional, dan menekankan pentingnya pengelolaan data yang aman dan efisien.<br/>
